@@ -1,98 +1,115 @@
 <!DOCTYPE html>
 
-<html>
+<html lang ="en">
 
     <head>
 
-        <meta charset="utf-8">
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-        <link rel="stylesheet" type="text/css" href="style.css">
 
     </head>
 
 <body>
 
-    <!--Top Navigation-->
+    <div class="header">
 
-    <nav>
+        <ul class="hdl">
 
-        <header-left>
-            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-            <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US>Store">Store</a></li>
-        </header-left>
-
-        <header-right>
-            <a href="https://www.google.com/gmail/about">Gmail</a></li>
-            <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
-            <a href="#">
-            <li><img src="images/applications.png" alt="Apps" style="width:30px;height:30px;"><a href="#"></a></li>
-
-            <a href="#">
-
-            <button class="nav-search-button">Sign in</button>
-
-            </a>
-        </header-right>
+            <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US>Store">Store</a></li>
         
+        </ul>
+
+        <ul class="hdr">
+
+            <li><a href="https://www.google.com/gmail/about">Gmail</a></li>
+            <li><a id="af1" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+            <li><a href="#"><img src="images/applications.png" alt="Apps" style="width:24px;height:24px; margin-right: 15px;"></li></a>
+            <li><button>Sign in</button></li>
             
-    </nav>
 
-    <!--Top Navigation end-->
+        </ul>    
 
-    <main>
+    </div>
+            
+    <div class="main">
 
-        <div class="Logo">
+        <div id="logo">
 
             <img src="images/google-logo.png" alt="Google">
 
         </div>
 
-        <div class="Searchbar">
-
-            <input type="text" style="width:487px;height:34px;" maxlength="2048" class="active" href="#">
-
-        </div>
-
-        <div id="Searchbar-icon1">
-
-            <img src="images/magnifying-glass.png" style="width:20px;height:20px;">
-
-        </div>
-
-        <div id="Searchbar-icon2">
-
-            <a href="#">
-
-            <img src="images/google-search-by-voice-icon.png" alt="Search by Voice" style="width:24px;height:24px;"></button>
-
-            </a>
-
-        </div>
-
-        <div class="Search-buttons">
+            <div id="search">
         
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm feeling lucky">
-        </div>
+                <input type="text" class="active" href="#">
+
+                <div id="glass" style="width: 14.58px; height:14.58px">
+                    
+
+                <img src="images/magnifying-glass.png" style="width:20px;height:20px; margin-top: 12px;">
+                
+
+            </div>
+
+            <div class="icon">
+                    <a href="#"><img src="images/google-search-by-voice-icon.png" alt="Search by Voice" style="width:24px;height:24px;"></a>
+
+    
+
+           
             
 
-    </main>
+                </div>
 
-    <footer-left class="footer-left">
+                    <div id="voice">
 
-        <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000021-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1&utm_expid=.1tzV7EbIReimh-7EIKk4yw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F#?modal_active=none">Business</a>
-        <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+                        
+    
+                    </div>
 
-    </footer-left>
+            </div>
 
-    <footer-right class="footer-right"></footer-right>
-        <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
-        <a href="https://policies.google.com/terms?fg=1">Terms</a>
-        <a href="https://www.google.com/preferences?hl=en">Settings</a>
-    </footer-right>
+                <div class="searchbtns">
+
+                    <div id="search-buttons">
+        
+                        <input class="buttons" type="submit" value="Google Search">
+                        <input class="buttons" type="submit" value="I'm feeling lucky">
+
+                    </div>
+                </div>
+
+    </div>
+
+        <div class="footer">
+
+        <ul class="fsl">
+
+            <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000021-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1&utm_expid=.1tzV7EbIReimh-7EIKk4yw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F#?modal_active=none">Business</a></li>
+            <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+        </ul>
+
+        <ul class="fsr">
+
+            <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+            <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+
+        </ul>
+
+        </div>
+
+    </div>
+
 </body>
 
 </html>
